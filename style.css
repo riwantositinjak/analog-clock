@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#clock {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background: lightblue;
+  border-radius: 50%;
+  border: 5px solid blue;
+  margin: 150px auto;
+}
+
+#dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: red;
+  left: 50%;
+  bottom: 50%;
+}
+
+#detik {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: red;
+  left: 150px;
+  bottom: 150px;
+  transform-origin: 0 100%;
+}
+
+#menit {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  background: yellow;
+  left: 151px;
+  bottom: 150px;
+  transform-origin: 0 100%;
+
+}
+
+#jam {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: green;
+  left: 155px;
+  bottom: 153px;
+  transform-origin: 0 100%;
+
+}
